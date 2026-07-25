@@ -16,7 +16,7 @@ model = ChatHuggingFace(llm = llm)
 
 
 
-st.header('Reasearch Tool')
+st.header('Book Summarizer Tool')
 
 genre_input = st.selectbox( " Select Genre of book", ["Classic Literature", "Science Fiction", "Fantasy", "Self-Help / Productivity", "History / Non-Fiction"])
 
