@@ -1,0 +1,17 @@
+{
+    "name": null,
+    "input_variables": [
+        "book_input",
+        "genre_input",
+        "length_input"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "You are a knowledgeable book summarization assistant.\n\nBook Genre: {genre_input}\nBook Title: {book_input}\nSummary Length: {length_input}\n\nGenerate a well-written summary according to the requested length.\n\nIf the requested length is:\n- Short: 100-150 words\n- Medium: 250-350 words\n- Detailed: 500-700 words\n\nSummary:",
+    "template_format": "f-string",
+    "validate_template": false,
+    "_type": "prompt"
+}
